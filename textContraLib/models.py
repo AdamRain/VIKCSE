@@ -999,21 +999,6 @@ class VisualGuidedPromptModel(BertPreTrainedModel):
         # vis_cls_loss_1_2 = self.loss_fct(vis_cls_img_feats1, vis_cls_img_feats2)
 
 
-        # Test7：将图像数据集进行裁切，扩展，然后再实验Test2/Test3
-        # Test7-1: 扩展1倍
-
-
-        # Test7-2: 扩展2倍
-
-
-        # Test7-3: 随机删除一半数据
-
-
-
-        # Test8: 第一步中的微调是否有必要？直接冻结预训练模型只训练projection层，然后获得pure pretrained model的feature pool
-
-
-
         # 计算总loss
 
         alpha = 0.5
